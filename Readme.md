@@ -1,7 +1,7 @@
 # Test python 
 
 This program count the frequency of all words contained into a text .
-This program can print each word and and its frequency of occurrence.
+This program can print each word and  its frequency of occurrence.
 This program can return the three most frequent words
 
 ##  Content of repositorie
@@ -13,7 +13,7 @@ This program can return the three most frequent words
 
 ## How to 
 
-* Clone the repositorie
+* Clone the repositorie `https://github.com/horlas/test_python.git`
 
 * This program run with python 3 , so you should check your python version:
 
