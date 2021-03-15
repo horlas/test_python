@@ -11,11 +11,11 @@ def text_lower(path_to_text):
 		return content.lower()
 
 def text_only_word(content):
-	''' '''
+
 	return re.sub(pattern = "[^\w\s]", repl = "", string = content)
 
 def list_of_words(content):
-	''' '''
+
 	list_words = re.split(r'\s', content)
 	# remove empty item
 	return [word for word in list_words if word != ""]
@@ -53,15 +53,15 @@ if __name__ == '__main__':
 		
 			if user_input == "1":
 				for pair in sorted_words:
-					print(f'le mot {pair[0]} apparait {pair[1]} fois dans le texte')
+					print(f'the word {pair[0]} occurs {pair[1]} times in the text')
 				
 
 			elif user_input == "2":
 				for pair in sorted_words[0:3]:
-					print(f'le mot {pair[0]} apparait {pair[1]} fois dans le texte')
+					print(f'the word {pair[0]} occurs {pair[1]} times in the text')
 
 			# escape all wrong answers
 			else:
 				SIGNAL = False
 	else:
-		print('fichier non trouvé')	
+		print('file not found')	
