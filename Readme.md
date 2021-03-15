@@ -37,6 +37,6 @@ sudo apt install python3.9
 
 `python3 prog.py TheProjectGutenbergeBookofFrankenstein.txt`
 
-* You can use the program with any text by pasting it into the program folder and passing the name of the text as an argument at the end odf command line.
+* You can use the program with any text by pasting it into the program folder and passing the name of the text as an argument at the end of command line.
 
 * Depending on the size of the text the order can take more or less time, don't worry.
