@@ -1,5 +1,9 @@
 # Test python 
 
+This program count the frequency of all words contained into a text .
+This program can print each word and and its frequency of occurrence.
+This program can return the three most frequent words
+
 ##  Content of repositorie
 
 * prog.py : program file
